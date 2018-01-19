@@ -1,0 +1,113 @@
+body{
+    background-color: azure;
+    margin-bottom: 3em;
+}
+
+#heart{
+    color: red;
+}
+
+.header,
+.footer,
+.container{
+    text-align: center;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.header,
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.header a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.header a:hover{
+    color:dodgerblue
+}
+
+#title{
+    margin-bottom: 0;
+}
+
+#portfolio-container #title{
+    font-family: "Abril Fatface", serif;
+    font-size: 20px;
+}
+
+#portfolio-container img#subtitle{
+    width: 6em;
+    height: 6em;
+}
+
+#blurb{
+    margin-top: 0;
+    font-family: "Tangerine", serif;
+    font-size: 20px;
+}
+
+.container{
+    margin-top: 3em;
+    font-family: "Droid Sans", serif;
+    font-size: 18px;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+.action-buttons img{
+    width: 12em;
+    height: 4em;
+}
+
+table .feedback{
+    align:center;
+}
+
+.feedback #star{
+    color: green;
+}
+
+.feedback #review,
+.feedback #reviewer{
+    font-family: "Old Standard TT", serif;
+    font-size: 18px;
+    font-style: italic;
+}
+.feedback #review{
+    color: darkgray
+}
+
+#feedback-item{
+    margin-bottom: 1em;
+}
+
+#press-container,
+#swag-container{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#swag-container img{
+    width: 12em;
+    height: 12em;
+}
